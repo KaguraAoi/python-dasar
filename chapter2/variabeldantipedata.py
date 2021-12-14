@@ -101,10 +101,10 @@ print(cp) # 212+0j
 print(type(cp)) # <class 'complex'>
 
 print(hx) # 0xd4
-print(type(hx)) # <class 'str'>
+print(type(hx)) # <class 'hex'>
 
 print(bn) # 0b11010100
-print(type(bn)) # <class 'str'>
+print(type(bn)) # <class 'bin'>
 
 print(oc) # 0o324
-print(type(oc)) # <class 'str'>
+print(type(oc)) # <class 'oct'>
