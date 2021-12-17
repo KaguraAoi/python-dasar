@@ -168,5 +168,5 @@ print (aku)
 
 # membuat operasi ternary juga bisa menggunakan tuple dan list
 jomblo = True
-status = ("Menikah", "Single")[jomblo]
+status = ("menikah", "single")[jomblo]
 print (status)
