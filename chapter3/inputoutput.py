@@ -16,7 +16,7 @@ nama = input("siapa nama kamu : ")
 umur = input("berapa umur kamu : ")
 print("hello", nama, "umur kamu adalah", umur, "tahun")
 
-# menampilkan Output
+# menampilkan output
 # ------------------
 # untuk menampilkan output teks, kita menggunakan fungsi print()
 
