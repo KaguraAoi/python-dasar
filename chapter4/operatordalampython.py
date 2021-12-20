@@ -27,28 +27,28 @@ b = 2
 
 # menggunakan operator penjumlahan
 c = a + b
-print("hasil",a," + ",b," = ",c)
+print("hasil",a," + ",b," = ",c) # 12
 # menggunakan operator pengurangan
 c = a - b
-print("hasil",a," - ",b," = ",c)
+print("hasil",a," - ",b," = ",c) # 8
 # menggunakan operator perkalian
 c = a * b
-print("hasil",a," * ",b," = ",c)
+print("hasil",a," * ",b," = ",c) # 20
 # menggunakan operator pembagian
 c = a / b
-print("hasil",a," / ",b," = ",c)
+print("hasil",a," / ",b," = ",c) # 5.0
 # menggunakan operator sisa bagi
 c = a % b
-print("hasil",a," % ",b," = ",c)
+print("hasil",a," % ",b," = ",c) # 0
 # menggunakan operator pangkat
 c = a ** b
-print("hasil",a," ** ",b," = ",c)
+print("hasil",a," ** ",b," = ",c) # 100
 
 # operator penugasan / assignment
 # -------------------------------
+# =
 # operator assignment adalah operator untuk memasukkan suatu nilai ke dalam variabel
 # operator assignment menggunakan tanda sama dengan (=)
-# +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
 
 # contoh
 umur = 18 # variabel umur telah kita berikan tugas untuk menyimpan angka 18
@@ -56,10 +56,10 @@ umur = 18 # variabel umur telah kita berikan tugas untuk menyimpan angka 18
 # operator assignment gabungan
 # ----------------------------
 # operator assignment gabungan adalah cara penulisan singkat operator assignment yang digabung dengan dengan operator lain
+# +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
 
 # contoh
-a += 1; # bisa disingkat (dan digabung) menjadi a += 1
-# a = a + 1 atau a += 1 (sama)
+a += 1; # a = a + 1 atau a += 1 (sama)
 
 # ambil suatu nilai
 a = 10
@@ -76,10 +76,10 @@ print("nilai a adalah %d" % a) # 90
 # bagi dengan 4
 a /= 4
 print("nilai a adalah %d" % a) # 22
-# pangkat 10
+# pangkat 2
 a **= 2
 # berapakah nilai a sekarang ?
-print("nilai a adalah %d" % a) # 506
+print("nilai a adalah %d" % a) # 484
 
 # operator pembanding
 # -------------------
@@ -129,8 +129,8 @@ print("not %r = %r" % (a, c)) # False
 # operator bitwise
 # ----------------
 # bitwise adalah operator khusus untuk menangani operasi logika bilangan biner dalam bentuk bit
-# bilangan biner sendiri merupakan jenis bilangan yang hanya terdiri dari 2 jenis angka, yakni 0 dan 1. jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi secara otomatis menjadi bilangan biner. misalnya 7 desimal = 0111 dalam bilangan biner
-# Pada penerapannya, operator bitwise tidak terlalu sering dipakai, kecuali anda sedang membuat program yang harus memproses bit-bit komputer. selain itu operator ini cukup rumit dan harus memiliki pemahaman tentang sistem bilangan biner
+# bilangan biner sendiri merupakan jenis bilangan yang hanya terdiri dari 2 jenis angka, yakni 0 dan 1
+# jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi secara otomatis menjadi bilangan biner. misalnya 7 desimal = 0111 dalam bilangan biner
 # &, |, ^, ~, <<, >>
 
 # contoh
@@ -174,7 +174,7 @@ print (status)
 # urutan evaluasi
 # ---------------
 # urutan evaluasi merupakan urutan operator yang dikerjakan terlebih dahulu
-# untuk urutannya silahkan search di web
+# untuk urutan aritmatikanya yaitu KUKABATAKU (kurung, kali, bagi, tambah, kurang)
 
 # mengubah urutan evaluasi
 # ------------------------
