@@ -81,17 +81,17 @@ else:
 # nilai = 'D'
 
 if nilai == 'A' :
-	print("pertahankan terus")
+  print("pertahankan terus")
 else if nilai == 'B' :
-	print("harus lebih baik lagi")
+  print("harus lebih baik lagi")
 else if nilai == 'C' :
-	print("perbanyak belajar lagi")
+  print("perbanyak belajar lagi")
 else if nilai == 'D' :
-	print("jangan keseringan main game") # True
+  print("jangan keseringan main game") # True
 else if nilai == 'E' :
-	print("keseringan bolos")
+  print("keseringan bolos")
 else :
-	print("maaf, format nilai yang anda berikan tidak sesuai")
+  print("maaf, format nilai yang anda berikan tidak sesuai")
 	
 # switch case
 # -----------
@@ -109,17 +109,17 @@ bekerja = True
 umur = 25
 
 if umur >= 25 : # True
-	print("sudah dewasa")
-	if bekerja : # True
-		print("siap menikah")
-	else :
-		print("belum siap menikah")
+  print("sudah dewasa")
+  if bekerja : # True
+    print("siap menikah")
+  else :
+    print("belum siap menikah")
 else :
-	print("masih bocah")
-	if bekerja :
-		print("tabung buat menikah")
-	else :
-		print("kerja dulu sana")
+  print("masih bocah")
+  if bekerja :
+    print("tabung buat menikah")
+  else :
+    print("kerja dulu sana")
 
 # short hand if
 # -------------
