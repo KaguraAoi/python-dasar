@@ -4,6 +4,7 @@
 # penulisan satu statement tidak diakhiri dengan tanda titik-koma
 
 # contoh
+# ------
 print("hello world")
 
 # penulisan string pada python
