@@ -1,18 +1,19 @@
 # apa itu percabangan dan kenapa dinamakan percabangan?
 # -----------------------------------------------------
 # untuk menggambarkan alur program yang bercabang
-# percabangan juga disebut control
-# percabangan akan membuat program berpikir dan menentukan tindakan sesuai dengan logika/kondisi yang kita berikan
+# percabangan akan menentukan tindakan sesuai dengan logika/kondisi yang kita berikan
 
 # struktur percabangan if
 # -----------------------
 # percabangan if digunakan saat terdapat satu pilihan keputusan
 # bagian condition berperan sebagai penentu dari struktur percabangan 
-# jika condition benar(True), blok kode program akan dijalankan. jika condition tidak benar(False), blok kode program tidak akan dijalankan
-# blok kode program dalam bahasa Python ditandai dengan (:) setelah penulisan condition, kemudian diikuti satu atau beberapa baris dengan awalan indentasi
+# jika condition benar(True), blok kode program akan dijalankan
+# jika condition tidak benar(False), blok kode program tidak akan dijalankan
+# blok kode program dalam bahasa Python ditandai dengan (:) setelah penulisan condition, 
+# kemudian diikuti satu atau beberapa baris dengan awalan indentasi
 
 # contoh 1
-# ------
+# --------
 a = 12
 b = 5
 
@@ -36,6 +37,7 @@ if (a % 2 != 0) :
   print(a, "merupakan bilangan ganjil") # 9 merupakan bilangan ganjil
     
 # struktur percabangan if else
+# ----------------------------
 # percabangan if else digunakan saat terdapat dua pilihan keputusan
 # pada dasarnya, kondisi if else merupakan modifikasi tambahan dari kondisi if
 # saat if bernilai False maka bagian else yang akan dijalankan
@@ -73,7 +75,9 @@ else:
 # struktur percabangan if else if else
 # ------------------------------------
 # percabangan if else if else digunakan apabila terdapat lebih dari dua kondisi
-# jika kondisi if bernilai False, maka program akan lanjut ke kondisi else if. jika else if juga tidak terpenuhi maka akan lanjut ke else if selanjutnya (tergantung jumlah else if yang diberikan) sehingga blok else terakhir bernilai True
+# jika kondisi if bernilai False, maka program akan lanjut ke kondisi else if
+# jika else if juga tidak terpenuhi maka akan lanjut ke else if selanjutnya
+# (tergantung jumlah else if yang diberikan) sehingga blok else terakhir bernilai True
 # dalam bahasa python. perintah else if ditulis menjadi elif
 
 # contoh 1
@@ -96,12 +100,13 @@ else :
 # switch case
 # -----------
 # dalam bahasa python tidak tersedia struktur switch case
-# jadi untuk kondisi yang cukup banyak, kita harus menggunakan if elif else atau menggunakan beberapa trik yang melibatkan function untuk pengganti switch case
+# jadi untuk kondisi yang cukup banyak, kita harus menggunakan if elif else 
+# atau menggunakan beberapa trik yang melibatkan function untuk pengganti switch case
 
 # looping bersarang if
 # --------------------
 # looping bersarang adalah statement if yang didalamnya terdapat if lagi
-# jika pernyataan if yang paling luar bernilai True, maka kondisi if yang berada dalamnya baru akan dilihat oleh sistem.
+# jika pernyataan if yang paling luar bernilai True, maka kondisi if yang didalam baru akan di cek
 
 # contoh 
 # ------
