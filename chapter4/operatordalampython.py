@@ -3,8 +3,9 @@
 # operand adalah nilai asal yang dipakai dalam sebuah proses operasi
 # operator adalah instruksi yang diberikan untuk mendapatkan hasil dari proses tersebut
 
-# contoh 
-# 10 + 2. angka 10 dan 2 disebut sebagai operand, sedangkan tanda tambah (+) adalah operator
+# contoh
+# ------
+# 10 + 2. angka 10 dan 2 adalah operand, sedangkan tanda tambah (+) adalah operator
 
 # jenis-jenis operator dalam python
 # ---------------------------------
@@ -22,6 +23,7 @@
 # +, -, *, /, %, **
 
 # contoh
+# ------
 a = 10
 b = 2
 
@@ -55,10 +57,11 @@ umur = 18 # variabel umur telah kita berikan tugas untuk menyimpan angka 18
 
 # operator assignment gabungan
 # ----------------------------
-# operator assignment gabungan adalah cara penulisan singkat operator assignment yang digabung dengan dengan operator lain
+# operator assignment gabungan adalah penulisan singkat operator assignment yang digabung dengan dengan operator lain
 # +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
 
 # contoh
+# ------
 a += 1; # a = a + 1 atau a += 1 (sama)
 
 # ambil suatu nilai
@@ -87,6 +90,7 @@ print("nilai a adalah %d" % a) # 484
 # >, <, =, !=, >=, <=
 
 # contoh
+# ------
 a = 9
 b = 5
 # apakah a sama dengan b?
@@ -114,6 +118,7 @@ print ("apakah %d != %d: %r" % (a,b,c)) # True
 # and, or, not
 
 # contoh
+# ------
 a = True
 b = True
 # logika AND
@@ -130,10 +135,12 @@ print("not %r = %r" % (a, c)) # False
 # ----------------
 # bitwise adalah operator khusus untuk menangani operasi logika bilangan biner dalam bentuk bit
 # bilangan biner sendiri merupakan jenis bilangan yang hanya terdiri dari 2 jenis angka, yakni 0 dan 1
-# jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi secara otomatis menjadi bilangan biner. misalnya 7 desimal = 0111 dalam bilangan biner
+# jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi secara otomatis menjadi bilangan biner
+# misalnya 7 desimal = 0111 dalam bilangan biner
 # &, |, ^, ~, <<, >>
 
 # contoh
+# ------
 a = 60
 b = 13
 # operasi AND
@@ -161,6 +168,7 @@ print ("a >> b = %s" % c) # 0
 # kondisi seperti percabangan if/else
 
 # contoh
+# ------
 # membuat operasi ternary menggunakann if/else dalam satu baris
 umur = int(input("berapa umur kamu? ")) # 18
 aku = "bocah" if umur < 10 else "dewasa" # False maka bocah
@@ -183,6 +191,7 @@ print (status)
 # pemakaian tanda kurung jangan terlalu berlebihan seperti (2 + (3 * 4))
 
 # contoh
+# ------
 hasil = 2 + 3 * 4
 print ("2 + 3 * 4 = %s" % hasil) # 14
 hasil = (2 + 3) * 4
@@ -196,20 +205,24 @@ print ("2.0 / 3 * 4 = %s" % hasil) # 2,666...
 # ---------------
 # operator dengan level urutan evaluasi yang sama akan dievaluasi dari kiri ke kanan
 # sebagai contoh 2 + 3 + 4 akan dievaluasi sebagai (2 + 3) + 4
-# beberapa operator seperti pengisian nilai (assignment) mempunyai sifat asosiatif dari kanan ke kiri, contoh: a = b = c akan dievaluasi a = (b = c)
+# beberapa operator seperti pengisian nilai (assignment) mempunyai sifat asosiatif dari kanan ke kiri
+# contoh: a = b = c akan dievaluasi a = (b = c)
 
 # operator identitas dan keanggotaan
 # ----------------------------------
-# kedua operator ini kadang disebut juga sebagai operator khusus (special operator), karena tidak selalu tersedia di bahasa pemrograman lain
+# kedua operator ini kadang disebut juga sebagai operator khusus (special operator)
+# operator ini tidak selalu tersedia di bahasa pemrograman lain
 
 # operator identitas
 # ------------------
-# operator identitas adalah operator yang bisa dipakai untuk memeriksa apakah nilai sebuah variabel ada di tempat yang sama (di memory) atau tidak
+# operator identitas adalah operator yang digunakan untuk memeriksa sebuah nilai,
+# apakah nilai sebuah variabel ada di tempat yang sama (di memory) atau tidak
 # operator ini terdiri dari 2 jenis: yaitu is dan is not
 # is: bernilai True jika kedua operand merujuk ke object yang sama dan berisi nilai yang sama
 # is not: bernilai True jika kedua operan merujuk ke objek yang tidak sama
 
 # contoh
+# ------
 a = 5
 b = 5
 c = 6
@@ -218,7 +231,8 @@ print("a is c :", a is c) # False
 print("a is not c :", a is not c) # True
 i = "STMIK PONTIANAK"
 j = "STMIK PONTIANAK"
-print("i is j :", i is j) # False, meskipun nilai element-nya sama persis, tapi python menyimpannya di alamat memory yang berbeda, sehingga dianggap tidak identik
+print("i is j :", i is j) # False, meskipun nilai element-nya sama persis, 
+# tapi python menyimpannya di alamat memory yang berbeda, sehingga dianggap tidak identik
 print("i is not j :", i is not j) # True
 x = ["a","b","c"]
 y = ["a","b","c"]
