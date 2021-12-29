@@ -81,7 +81,9 @@ nyala = 0
 # ------------------
 # konversi digunakan apabila kita ingin mengubah suatu tipe data ke tipe data yang lain
 # misalnya kita ingin mengubah input string menjadi int
-# fungsi-fungsi untuk mengubah tipe data:
+
+# fungsi-fungsi untuk mengubah tipe data
+# --------------------------------------
 # int() untuk mengubah menjadi integer
 # long() untuk mengubah menjadi integer panjang
 # float() untuk mengubah menjadi float
