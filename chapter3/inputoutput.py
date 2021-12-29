@@ -7,10 +7,7 @@
 # mengambil input dari keyboard
 # -----------------------------
 # fungsi input(): untuk mengambil inputan dari keyboard
-
-# cara pakainya
-# -------------
-nama_variabel = input("sebuah teks")
+# cara pakainya: nama_variabel = input("sebuah teks")
 
 # contoh
 # ------
