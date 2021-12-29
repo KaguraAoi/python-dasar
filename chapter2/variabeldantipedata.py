@@ -33,6 +33,9 @@ lulus = False
 jumlah = 2
 ketelitian = 20.25
 merk = "Xiao Mi"
+print(type(jumlah))
+print(type(ketelitian))
+print(type(merk))
 
 # jenis-jenis tipe data
 # ---------------------
@@ -57,12 +60,12 @@ berat = 23.12
 # tipe data teks dibagi menjadi dua jenis lagi:
 # char, contoh 'R'
 # string, contoh "aku lagi makan"
-# penulisan tipe data teks harus diapit dengan tanda petik. bisa menggunakan petik tunggal(' ') atau ganda('' '')
+# penulisan tipe data teks harus diapit dengan tanda petik. bisa menggunakan petik tunggal(' ') atau ganda(" ")
 
 # contoh
 # ------
 A = 'HP'
-B = ''SMARTPHONE ANDROID''
+B = "SMARTPHONE ANDROID"
 
 # tipe data boolean
 # -----------------
