@@ -46,5 +46,5 @@ print("belajar " + bhs) # belajar python
 # ------
 nama = input("nama anda : ")
 buah = input("beli buah apa ? ")
-print("{} , yuk belajar python".format(nama)) # andi, yuk belajar python
+print("{}, yuk belajar python".format(nama)) # andi, yuk belajar python
 print("berarti {} makan buah {}".format(nama, buah)) # berarti andi makan buah pisang
