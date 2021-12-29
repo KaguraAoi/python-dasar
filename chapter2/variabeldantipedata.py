@@ -99,6 +99,6 @@ nyala = 0
 data = 212
 st = str(data)
 fl = float(data)
-print(data, type(data))
-print(st, type(st))
-print(fl, type(fl))
+print(data, type(data)) # 212 <class 'int'>
+print(st, type(st)) # 212 <class 'str'>
+print(fl, type(fl)) # 212.0 <class 'float'>
