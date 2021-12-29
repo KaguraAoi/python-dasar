@@ -99,25 +99,6 @@ nyala = 0
 data = 212
 st = str(data)
 fl = float(data)
-cp = complex(data)
-hx = hex(data)
-bn = bin(data)
-oc = oct(data)
-
-print(st) # 212
-print(type(st)) # <class 'str'>
-
-print(fl) # 212.0
-print(type(fl)) # <class 'float'>
-
-print(cp) # 212+0j
-print(type(cp)) # <class 'complex'>
-
-print(hx) # 0xd4
-print(type(hx)) # <class 'hex'>
-
-print(bn) # 0b11010100
-print(type(bn)) # <class 'bin'>
-
-print(oc) # 0o324
-print(type(oc)) # <class 'oct'>
+print(data, type(data))
+print(st, type(st))
+print(fl, type(fl))
