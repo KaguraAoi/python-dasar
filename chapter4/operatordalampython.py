@@ -151,8 +151,8 @@ print ("2.0 / 3 * 4 = {}".format(hasil)) # 2,666...
 # sifat asosiatif
 # ---------------
 # operator dengan level urutan evaluasi yang sama akan dievaluasi dari kiri ke kanan
-# sebagai contoh 2 + 3 + 4 akan dievaluasi sebagai (2 + 3) + 4
-# beberapa operator seperti pengisian nilai (assignment) mempunyai sifat asosiatif dari kanan ke kiri
+# sebagai contoh: 2 + 3 + 4 akan dievaluasi sebagai (2 + 3) + 4
+# beberapa operator seperti assignment mempunyai sifat asosiatif dari kanan ke kiri
 # contoh: a = b = c akan dievaluasi a = (b = c)
 
 # operator identitas dan keanggotaan
@@ -173,14 +173,14 @@ print ("2.0 / 3 * 4 = {}".format(hasil)) # 2,666...
 a = 5
 b = 5
 c = 6
-print("a is b :", a is b) # True
-print("a is c :", a is c) # False
-print("a is not c :", a is not c) # True
+print("a is b :", a is b) # 5 is 5 maka True
+print("a is c :", a is c) # 5 is 6 maka False
+print("a is not c :", a is not c) # 5 is not 6 maka True
 i = "STMIK PONTIANAK"
 j = "STMIK PONTIANAK"
 print("i is j :", i is j) # False, meskipun nilai element-nya sama persis, 
 # tapi python menyimpannya di alamat memory yang berbeda, sehingga dianggap tidak identik
-print("i is not j :", i is not j) # True
+print("i is not j :", i is not j) # STMIK PONTIANAK is not STMIK PONTIANAK maka True
 x = ["a","b","c"]
 y = ["a","b","c"]
 print("x is y :", x is y) # False
