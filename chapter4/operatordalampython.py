@@ -27,24 +27,15 @@
 a = 10
 b = 2
 
-# menggunakan operator penjumlahan
+# operator penjumlahan
 c = a + b
-print("hasil",a," + ",b," = ",c) # 12
-# menggunakan operator pengurangan
-c = a - b
-print("hasil",a," - ",b," = ",c) # 8
-# menggunakan operator perkalian
-c = a * b
-print("hasil",a," * ",b," = ",c) # 20
-# menggunakan operator pembagian
-c = a / b
-print("hasil",a," / ",b," = ",c) # 5.0
+print("hasil", a, " + ", b, " = ", c) # 12
 # menggunakan operator sisa bagi
 c = a % b
-print("hasil",a," % ",b," = ",c) # 0
+print("hasil", a, " % ", b, " = ", c) # 0
 # menggunakan operator pangkat
 c = a ** b
-print("hasil",a," ** ",b," = ",c) # 100
+print("hasil", a, " ** ", b, " = ", c) # 100
 
 # operator penugasan / assignment
 # -------------------------------
@@ -53,36 +44,25 @@ print("hasil",a," ** ",b," = ",c) # 100
 # operator assignment menggunakan tanda sama dengan (=)
 
 # contoh
+# ------
 umur = 18 # variabel umur telah kita berikan tugas untuk menyimpan angka 18
 
 # operator assignment gabungan
 # ----------------------------
 # operator assignment gabungan adalah penulisan singkat operator assignment yang digabung dengan dengan operator lain
 # +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
+# misalnya a = a + 1 atau a += 1 (sama)
 
 # contoh
 # ------
-a += 1; # a = a + 1 atau a += 1 (sama)
-
-# ambil suatu nilai
 a = 10
-print("nilai a adalah %d" % a) # 10
+print("nilai a adalah ", a) # 10
 # tambahkan dengan 2
-a += 2
-print("nilai a adalah %d" % a) # 12
+a += 2 # a = 10 + 2
+print("nilai a adalah ", a) # 12
 # kurangi 3
-a -= 3
-print("nilai a adalah %d" % a) # 9
-# kali 10
-a *= 10
-print("nilai a adalah %d" % a) # 90
-# bagi dengan 4
-a /= 4
-print("nilai a adalah %d" % a) # 22
-# pangkat 2
-a **= 2
-# berapakah nilai a sekarang ?
-print("nilai a adalah %d" % a) # 484
+a -= 3 # a = 12 - 3
+print("nilai a adalah ", a) # 9
 
 # operator pembanding
 # -------------------
@@ -93,91 +73,58 @@ print("nilai a adalah %d" % a) # 484
 # ------
 a = 9
 b = 5
-# apakah a sama dengan b?
-c = a == b
-print ("apakah %d == %d: %r" % (a,b,c)) # False
-# apakah a < b?
-c = a < b
-print ("apakah %d < %d: %r" % (a,b,c)) # False
-# apakah a > b?
-c = a > b
-print ("apakah %d > %d: %r" % (a,b,c)) # True
-# apakah a <= b?
-c = a <= b
-print ("apakah %d <= %d: %r" % (a,b,c)) # False
-# apakah a >= b?
-c = a >= b
-print ("apakah %d >= %d: %r" % (a,b,c)) # True
-# apakah a != b?
-c = a != b
-print ("apakah %d != %d: %r" % (a,b,c)) # True
+c = a == b # c = 9 == 5 ?
+print ("apakah {} == {} : {}".format(a,b,c)) # False
+c = a < b # c = 9 < 5 ?
+print ("apakah {} == {} : {}".format(a,b,c)) # False
+c = a > b # c = 9 > 5 ?
+print ("apakah {} == {} : {}".format(a,b,c)) # True
+c = a != b # c = 9 != 5 ?
+print ("apakah {} == {} : {}".format(a,b,c)) # True
 
 # operator logika
 # ---------------
-# operator logika digunakan untuk membuat operasi logika, seperti logika AND, OR, NOT
+# operator logika digunakan untuk membuat operasi logika
 # and, or, not
+# cara hafal :
+# and : dua dua harus True, selain itu False
+# or : dua dua salah maka False, salah satu benar tetap True
+# not : kebalikannya. misal not False maka True atau not True maka False 
 
 # contoh
 # ------
 a = True
 b = True
+d = False
 # logika AND
 c = a and b
-print("%r and %r = %r" % (a, b, c)) # True
+print("{} and {} = {}".format(a, b, c)) # True
 # logika OR
-c = a or b
-print("%r or %r = %r" % (a, b, c)) # True
+c = a or d
+print("{} and {} = {}".format(a, b, d)) # True
 # logika NOT
 c = not a
-print("not %r = %r" % (a, c)) # False
+print("{} and {} = {}".format(a, b, c)) # False
 
 # operator bitwise
 # ----------------
 # bitwise adalah operator khusus untuk menangani operasi logika bilangan biner dalam bentuk bit
-# bilangan biner sendiri merupakan jenis bilangan yang hanya terdiri dari 2 jenis angka, yakni 0 dan 1
-# jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi secara otomatis menjadi bilangan biner
-# misalnya 7 desimal = 0111 dalam bilangan biner
+# bilangan biner merupakan jenis bilangan yang hanya terdiri dari 2 jenis angka, yakni 0 dan 1
+# jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi menjadi bilangan biner
+# misalnya 7 desimal == 0111 dalam bilangan biner
 # &, |, ^, ~, <<, >>
-
-# contoh
-# ------
-a = 60
-b = 13
-# operasi AND
-c = a & b
-print ("a & b = %s" % c) # 12
-# operasi OR
-c = a | b
-print ("a | b = %s" % c) # 61
-# operasi XOR
-c = a ^ b
-print ("a ^ b = %s" % c) # 49
-# operasi Not
-c = ~a
-print ("~a = %s" % c) # -61
-# operasi shift left (tukar posisi biner) 
-c = a << b
-print ("a << b = %s" % c) # 491520
-# operasi shift right (tukar posisi biner)
-c = a >> b
-print ("a >> b = %s" % c) # 0
 
 # operator ternary
 # ----------------
-# operator ternary juga dikenal dengan operator kondisi, karena digunakan untuk membuat sebuah ekspresi
+# operator ternary digunakan untuk membuat sebuah ekspresi
 # kondisi seperti percabangan if/else
 
 # contoh
 # ------
 # membuat operasi ternary menggunakann if/else dalam satu baris
-umur = int(input("berapa umur kamu? ")) # 18
-aku = "bocah" if umur < 10 else "dewasa" # False maka bocah
+umur = int(input("berapa umur kamu ? ")) # 18
+aku = "bocah" if umur < 10 else "dewasa" # False maka dewasa
 print (aku)
-
-# membuat operasi ternary juga bisa menggunakan tuple dan list
-jomblo = True
-status = ("menikah", "single")[jomblo]
-print (status)
 
 # urutan evaluasi
 # ---------------
@@ -193,13 +140,13 @@ print (status)
 # contoh
 # ------
 hasil = 2 + 3 * 4
-print ("2 + 3 * 4 = %s" % hasil) # 14
+print ("2 + 3 * 4 = {}".format(hasil)) # 14
 hasil = (2 + 3) * 4
-print ("2 + 3) * 4 = %s" % hasil) # 20
+print ("2 + 3) * 4 = {}".format(hasil)) # 20
 hasil = 2 / 3 * 4
-print ("2 / 3 * 4 = %s" % hasil) # 2,666...
+print ("2 / 3 * 4 = {}".format(hasil)) # 2,666...
 hasil = 2.0 / 3 * 4
-print ("2.0 / 3 * 4 = %s" % hasil) # 2,666...
+print ("2.0 / 3 * 4 = {}".format(hasil)) # 2,666...
 
 # sifat asosiatif
 # ---------------
