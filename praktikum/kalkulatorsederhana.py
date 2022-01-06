@@ -1,4 +1,4 @@
-# contoh 2 : contoh program kalkulator sederhana
+# contoh program kalkulator sederhana
 
 # --------
 # FUNCTION
