@@ -1,6 +1,6 @@
-# --------------------------
-# PROGRAM KONVERSI TYPE DATA
-# --------------------------
+print("----------------------------")
+print(" PROGRAM KONVERSI TYPE DATA ")
+print("----------------------------")
 
 # --------
 # function
