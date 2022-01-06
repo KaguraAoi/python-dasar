@@ -1,4 +1,6 @@
-# contoh 3 : program konversi tipe data
+# --------------------------
+# PROGRAM KONVERSI TYPE DATA
+# --------------------------
 
 # --------
 # function
