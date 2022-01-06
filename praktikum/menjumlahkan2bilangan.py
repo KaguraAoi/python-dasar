@@ -1,4 +1,4 @@
-# contoh 1 : program untuk menjumlahkan 2 bilangan
+# program untuk menjumlahkan 2 bilangan
 
 # user menginput bilangan
 bilangan1 = int(input("masukkan bilangan pertama: "))
