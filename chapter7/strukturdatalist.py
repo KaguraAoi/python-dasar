@@ -92,3 +92,91 @@ print(my_list[-1]) # l
 print(my_list[-2]) # e
 print(my_list[-3]) # p
 print(my_list[-4]) # a
+
+# menambahkan item list
+# ---------------------
+# terdapat 3 fungsi yang bisa digunakan untuk menambahkan item ke list :
+# 1. append(item) 
+# 2. insert(index, item) 
+
+# metode append()
+# ---------------
+# menambah item dari belakang
+
+# contoh
+# ------
+#list mula-mula
+buah = ["jeruk", "apel", "mangga", "durian"]
+# tambah data manggis
+buah.append("manggis")
+print(list(buah)) # hasil : [jeruk, apel, mangga, durian, manggis]
+
+# metode insert()
+# ---------------
+# menambah item dari indeks tertentu
+
+# contoh
+# ------
+#list mula-mula
+buah = ["jeruk", "apel", "mangga", "durian"]
+# tambah data manggis
+buah.insert(2, "manggis") # menambahkan item manggis pada indeks ke-2
+print(list(buah)) # [jeruk, apel manggis mangga durian]
+
+# menghapus item di list
+# ----------------------
+# 1. fungsi del()
+# 2. remove()
+
+# fungsi del()
+# ------------
+# perintah del() akan menghapus sebuah variabel dari memori
+
+# contoh
+# ------
+# list awal
+todo_list = [
+  "belajar python",
+  "belajar vb.net",
+  "belajar java",
+  "belajar php"
+]
+
+# cetak isi list awal
+print("sebelum dihapus")
+for isi in todo_list :
+  print(isi) # belajar python, ..., belajar php
+  
+# misal kita ingin menghapus belajar java
+# belajar java berada di indeks ke-2
+del todo_list[2]
+
+# print isi list setelah dihapus
+print("setelah dihapus")
+for isi in todo_list :
+  print(isi)
+  
+# metode remove()
+# ---------------
+# metode remove() digunakan dengan parameter item yang akan dihapus
+
+# contoh
+# ------
+# mula-mula kita punya list seperti berikut :
+huruf = ["A", "B", "C", "D", "E", "F", "G", "H"]
+# misalnya kita ingin menghapus item D
+huruf.remove("D")
+
+print(list(a))
+
+# memotong list
+# -------------
+# seperti string, list juga dapat dipotong-potong
+# jadi, jika kita ingin mengakses suatu range, kita membutuhkan 2 indeks yang akan memotong bagian tersebut dari daftar
+
+# contoh
+# ------
+# mula-mula kita punya list seperti berikut :
+huruf = ["A", "B", "C", "D", "E", "F", "G", "H"]
+# kita potong dari index ke-1 sampai dengan ke-5
+print(a[1:5]) # hasil: B C D E
