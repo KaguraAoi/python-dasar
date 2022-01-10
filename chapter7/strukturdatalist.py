@@ -172,7 +172,8 @@ print(list(a))
 # memotong list
 # -------------
 # seperti string, list juga dapat dipotong-potong
-# jadi, jika kita ingin mengakses suatu range, kita membutuhkan 2 indeks yang akan memotong bagian tersebut dari daftar
+# jadi, jika kita ingin mengakses suatu range, kita membutuhkan 2 indeks,
+# yang akan memotong bagian tersebut dari daftar
 
 # contoh
 # ------
