@@ -130,7 +130,7 @@ print(list(buah)) # [jeruk, apel manggis mangga durian]
 
 # fungsi del()
 # ------------
-# perintah del() akan menghapus sebuah variabel dari memori
+# perintah del() akan menghapus sebuah item dari list menggunakan index
 
 # contoh
 # ------
@@ -158,7 +158,8 @@ for isi in todo_list :
   
 # metode remove()
 # ---------------
-# metode remove() digunakan dengan parameter item yang akan dihapus
+# metode remove() digunakan untuk menghapus item dengan parameter dari,
+# list tersebut
 
 # contoh
 # ------
@@ -179,5 +180,85 @@ print(list(a))
 # ------
 # mula-mula kita punya list seperti berikut :
 huruf = ["A", "B", "C", "D", "E", "F", "G", "H"]
+
 # kita potong dari index ke-1 sampai dengan ke-5
-print(a[1:5]) # hasil: B C D E
+print(huruf[1:5]) # hasil: B C D E
+# kita potong dari index negatif ke-1 sampai akhir
+print(huruf[:-5]) # hasil: A B C
+# kita potong dari index ke-5 sampai akhir
+print(huruf[5:]) # hasil: A B C
+# kita potong dari awal sampai akhir
+print(huruf[:]) # hasil: A B C D E F G H
+# kita potong dari index negatif ke-1 sampai index negatif ke-3
+print(huruf[-3:-1]) # hasil: F G
+
+# fungsi built-in pada list python
+# --------------------------------
+# len() : memberikan total item dalam list
+# max() : mengembalikan item dari list dengan nilai maks
+# min() : mengembalikan item dari list dengan nilai min
+
+# list multi dimensi
+# ------------------
+# list multi dimensi digunakan untuk menyimpan struktur data yang kompleks,
+# seperti tabel, matriks, graph, tree, dsb
+
+# contoh 1
+# --------
+# list minuman dengan 2 dimensi
+list_minuman = [
+  ["kopi", "susu", "teh"],
+  ["jus apel", "jus melon", "jus jeruk"]
+]
+
+# misal kita ingin mengambil data jus melon
+print(list_minuman[1][1])
+
+# contoh 2
+# --------
+a = [
+  [11, 12, 13],
+  [14, 15, 16],
+  [17, 18, 19]
+]
+
+# akses 16
+print(a[1][2])
+# akses 17
+print(a[2][0])
+
+# contoh 3
+# --------
+a = [
+  [11, 12, 13],
+  [14, 15, 16],
+  [17, 18, 19]
+]
+
+for i in range(3) :
+  for j in range(3) :
+    print(a[i][j], end = ' ')
+  print()
+  
+# hasil :
+# 11 12 13
+# 14 15 16
+# 17 18 19
+ 
+# contoh 4
+# --------
+a = [
+  [11, 12, 13],
+  [14, 15, 16],
+  [17, 18, 19]
+]
+
+for i in a :
+  for j in i :
+    print(j, end = ' ')
+  print()
+
+# hasil :
+# 11 12 13
+# 14 15 16
+# 17 18 19
