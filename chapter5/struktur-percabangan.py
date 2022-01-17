@@ -1,4 +1,4 @@
-# apa itu percabangan?
+# apa itu percabangan ?
 # ---------------------
 # percabangan digunakan untuk menggambarkan alur program yang bercabang
 # percabangan akan menentukan tindakan sesuai dengan logika/kondisi yang kita berikan
@@ -22,7 +22,7 @@ if a > b :
   
 # contoh 2
 # --------
-lulus = input("apakah kamu lulus? [ya/tidak] : ") # tidak
+lulus = input("apakah kamu lulus ? [ya/tidak] : ") # tidak
 
 if (lulus == "tidak") :
   print("kamu harus ikut ujian") # jika True maka blok program dijalankan
@@ -56,9 +56,9 @@ else :
 a = 10
 
 if (a % 2 == 0) :
-  print(a, "merupakan bilangan genap") # True, 10 merupakan bilangan genap
+  print(a, " merupakan bilangan genap") # True, 10 merupakan bilangan genap
 else :
-  print(a, "merupakan bilangan ganjil") 
+  print(a, " merupakan bilangan ganjil") 
   
 # contoh 3
 # --------
