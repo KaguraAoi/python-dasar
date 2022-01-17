@@ -6,19 +6,19 @@
 
 # membuat variabel
 # ----------------
-# variabel di python dapat dibuat dengan format seperti ini:
+# variabel di python dapat dibuat dengan format seperti ini :
 # nama_variabel = [nilai]
 
 # contoh
 # ------
 nilai_ujian = 87.5
-nama = "Aditya"
+nama = "aditya"
 lulus = False
 
 # aturan penulisan variabel
 # -------------------------
-# nama variabel boleh diawali menggunakan huruf atau garis bawah (_), contoh: nama, _nama, namaKu, nama_variabel
-# karakter selanjutnya dapat berupa huruf, garis bawah (_) atau angka, contoh: __nama, n2, nilai1
+# nama variabel boleh diawali menggunakan huruf atau garis bawah (_), contoh : nama, _nama, namaKu, nama_variabel
+# karakter selanjutnya dapat berupa huruf, garis bawah (_) atau angka, contoh : __nama, n2, nilai1
 # karakter pada nama variabel bersifat case-sensitif. artinya huruf besar dan kecil dibedakan
 # misalnya, variabel_Ku dan variabel_ku, keduanya adalah variabel yang berbeda
 # nama variabel tidak boleh menggunakan kata kunci yang sudah ada dalam python seperti if, while, for, dsb
@@ -32,23 +32,23 @@ lulus = False
 # ------
 jumlah = 2
 ketelitian = 20.25
-merk = "Xiao Mi"
+merk = "xiao mi"
 print(type(jumlah))
 print(type(ketelitian))
 print(type(merk))
 
 # jenis-jenis tipe data
 # ---------------------
-# Secara umum, tipe data primitif dalam python dibagi menjadi tiga jenis:
+# secara umum, tipe data primitif dalam python dibagi menjadi tiga jenis :
 # tipe data angka
 # tipe data teks
-# tipe data boolan
+# tipe data boolean
 
 # tipe data angka
 # ---------------
-# tipe data angka dibagi menjadi beberapa jenis lagi:
-# integer, contoh 32, 22, 12, 10
-# float, contoh 1.3, 4.2, 22.3
+# tipe data angka dibagi menjadi beberapa jenis lagi :
+# integer, contoh : 32, 22, 12, 10
+# float, contoh : 1.3, 4.2, 22.3
 
 # contoh
 # ------
@@ -57,9 +57,9 @@ berat = 23.12
 
 # tipe data teks
 # --------------
-# tipe data teks dibagi menjadi dua jenis lagi:
-# char, contoh 'R'
-# string, contoh "aku lagi makan"
+# tipe data teks dibagi menjadi dua jenis lagi :
+# char, contoh : 'R'
+# string, contoh : "aku lagi makan"
 # penulisan tipe data teks harus diapit dengan tanda petik. bisa menggunakan petik tunggal (' ') atau ganda (" ")
 
 # contoh
