@@ -13,7 +13,7 @@
 # ------
 nama = input("siapa nama kamu : ")
 umur = input("berapa umur kamu : ")
-print("hello", nama, "umur kamu adalah", umur, "tahun")
+print("hello ", nama, " umur kamu adalah", umur, " tahun")
 
 # menampilkan output
 # ------------------
@@ -26,7 +26,7 @@ print("hello", nama, "umur kamu adalah", umur, "tahun")
 # contoh
 # ------
 nama_variabel = "belajar python"
-print("mari", nama_variabel) # mari belajar python
+print("mari ", nama_variabel) # mari belajar python
 
 # menggabungkan teks dan variabel
 # -------------------------------
