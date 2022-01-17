@@ -29,13 +29,13 @@ b = 2
 
 # operator penjumlahan
 c = a + b
-print("hasil", a, " + ", b, " = ", c) # 12
+print("hasil ", a, " + ", b, " = ", c) # 12
 # menggunakan operator sisa bagi
 c = a % b
-print("hasil", a, " % ", b, " = ", c) # 0
+print("hasil ", a, " % ", b, " = ", c) # 0
 # menggunakan operator pangkat
 c = a ** b
-print("hasil", a, " ** ", b, " = ", c) # 100
+print("hasil ", a, " ** ", b, " = ", c) # 100
 
 # operator penugasan / assignment
 # -------------------------------
@@ -88,10 +88,10 @@ print ("apakah {} == {} : {}".format(a,b,c)) # True
 # ---------------
 # operator logika digunakan untuk membuat operasi logika
 # and, or, not
-# cara hafal:
-# and: dua dua harus True, selain itu False
-# or: dua dua salah maka False, salah satu benar tetap True
-# not: kebalikannya. misal not False maka True atau not True maka False 
+# cara hafal :
+# and : dua dua harus True, selain itu False
+# or : dua dua salah maka False, salah satu benar tetap True
+# not : kebalikannya. misal not False maka True atau not True maka False 
 
 # contoh
 # ------
@@ -120,14 +120,14 @@ print("{} and {} = {}".format(a, b, c)) # False
 # operator ternary
 # ----------------
 # operator ternary digunakan untuk membuat sebuah ekspresi
-# kondisi seperti percabangan if/else
+# kondisi seperti percabangan if else
 
 # contoh
 # ------
-# membuat operasi ternary menggunakann if/else dalam satu baris
+# membuat operasi ternary menggunakann if else dalam satu baris
 umur = int(input("berapa umur kamu ? ")) # 18
 aku = "bocah" if umur < 10 else "dewasa" # False maka dewasa
-print (aku)
+print(aku)
 
 # urutan evaluasi
 # ---------------
@@ -154,9 +154,9 @@ print ("2.0 / 3 * 4 = {}".format(hasil)) # 2,666...
 # sifat asosiatif
 # ---------------
 # operator dengan level urutan evaluasi yang sama akan dievaluasi dari kiri ke kanan
-# sebagai contoh: 2 + 3 + 4 akan dievaluasi sebagai (2 + 3) + 4
+# sebagai contoh : 2 + 3 + 4 akan dievaluasi sebagai (2 + 3) + 4
 # beberapa operator seperti assignment mempunyai sifat asosiatif dari kanan ke kiri
-# contoh: a = b = c akan dievaluasi a = (b = c)
+# contoh : a = b = c akan dievaluasi a = (b = c)
 
 # operator identitas dan keanggotaan
 # ----------------------------------
@@ -167,24 +167,24 @@ print ("2.0 / 3 * 4 = {}".format(hasil)) # 2,666...
 # ------------------
 # operator identitas adalah operator yang digunakan untuk memeriksa sebuah nilai,
 # apakah nilai sebuah variabel ada di tempat yang sama (di memory) atau tidak
-# operator ini terdiri dari 2 jenis: yaitu is dan is not
-# is: bernilai True jika kedua operand merujuk ke object yang sama dan berisi nilai yang sama
-# is not: bernilai True jika kedua operan merujuk ke objek yang tidak sama
+# operator ini terdiri dari 2 jenis : yaitu is dan is not
+# is : bernilai True jika kedua operand merujuk ke object yang sama dan berisi nilai yang sama
+# is not : bernilai True jika kedua operan merujuk ke objek yang tidak sama
 
 # contoh
 # ------
 a = 5
 b = 5
 c = 6
-print("a is b :", a is b) # 5 is 5 maka True
-print("a is c :", a is c) # 5 is 6 maka False
-print("a is not c :", a is not c) # 5 is not 6 maka True
+print("a is b : ", a is b) # 5 is 5 maka True
+print("a is c : ", a is c) # 5 is 6 maka False
+print("a is not c : ", a is not c) # 5 is not 6 maka True
 i = "STMIK PONTIANAK"
 j = "STMIK PONTIANAK"
-print("i is j :", i is j) # False, meskipun nilai element-nya sama persis, 
+print("i is j : ", i is j) # False, meskipun nilai element-nya sama persis, 
 # tapi python menyimpannya di alamat memory yang berbeda, sehingga dianggap tidak identik
-print("i is not j :", i is not j) # STMIK PONTIANAK is not STMIK PONTIANAK maka True
-x = ["a","b","c"]
-y = ["a","b","c"]
-print("x is y :", x is y) # False
-print("x is not y :", x is not y) # True
+print("i is not j : ", i is not j) # STMIK PONTIANAK is not STMIK PONTIANAK maka True
+x = ["a", "b", "c"]
+y = ["a", "b", "c"]
+print("x is y : ", x is y) # False
+print("x is not y : ", x is not y) # True
