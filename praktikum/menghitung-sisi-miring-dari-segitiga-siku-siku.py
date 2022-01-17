@@ -4,8 +4,8 @@
 import math # supaya kita bisa menghitung akar kuadrat
 
 # input sisi
-sisiA = float(input("masukkan sisi A: "))
-sisiB = float(input("masukkan sisi B: "))
+sisiA = float(input("masukkan sisi A : "))
+sisiB = float(input("masukkan sisi B : "))
 
 # hitung kuadrat dari masing-masing sisi
 aKuadrat = sisiA ** 2
@@ -16,4 +16,4 @@ tmp_sisi_miring = aKuadrat + bKuadrat
 sisi_miring = math.sqrt(tmp_sisi_miring)
 
 # tampilkan hasil
-print("sisi miring(C) : {}".format(sisi_miring))
+print("sisi miring (C) : {}".format(sisi_miring))
