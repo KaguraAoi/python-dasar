@@ -6,14 +6,14 @@
 
 # mengambil input dari keyboard
 # -----------------------------
-# fungsi input(): untuk mengambil inputan dari keyboard
-# cara pakainya: nama_variabel = input("sebuah teks")
+# fungsi input() : untuk mengambil inputan dari keyboard
+# cara pakainya : nama_variabel = input("sebuah teks")
 
 # contoh
 # ------
 nama = input("siapa nama kamu : ")
 umur = input("berapa umur kamu : ")
-print("hello ", nama, " umur kamu adalah", umur, " tahun")
+print("hello ", nama, " umur kamu adalah ", umur, " tahun")
 
 # menampilkan output
 # ------------------
@@ -30,7 +30,7 @@ print("mari ", nama_variabel) # mari belajar python
 
 # menggabungkan teks dan variabel
 # -------------------------------
-# menggabungkan teks dan variabelnya dapat dengan menggunakan tanda plus (+)
+# menggabungkan teks dan variabel dapat dengan menggunakan tanda plus (+)
 
 # contoh
 # ------
@@ -40,7 +40,7 @@ print("belajar " + bhs) # belajar python
 # menggunakan fungsi format()
 # ---------------------------
 # fungsi format() akan menggabungkan isi variabel dengan teks
-# tanda {} akan otomatis diganti sesuai dengan nilai yang kita inputkan ke variabel nama
+# tanda {} akan otomatis diganti sesuai dengan nilai yang kita inputkan ke variabel
 
 # contoh
 # ------
