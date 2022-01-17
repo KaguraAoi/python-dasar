@@ -1,7 +1,7 @@
 # konsep struktur data list
 # -------------------------
 # list adalah struktur data pada python yang mampu menyimpan lebih dari 1 data seperti array
-# list merupakan struktur data terurut(sequence)
+# list merupakan struktur data terurut (sequence)
 # setiap item dalam list memiliki indeks yang dimulai dari 0
 # list direpresentasikan dengan karakter []
 # list dalam python dapat menampung berbagai tipe data
@@ -23,7 +23,7 @@ kotak = ["pisang", 50, True, 12.5]
 
 # mengambil data dari list
 # ------------------------
-# kita menggunakan nomor indeks untuk mengambil isi(data) dari list
+# kita menggunakan nomor indeks untuk mengambil isi (data) dari list
 # nomor indeks selalu dimulai dari 0
 
 # contoh 1
@@ -57,7 +57,7 @@ for a in temanku :
 
 # mengganti nilai list
 # --------------------
-list bersifat mutable, artinya isinya bisa kita ubah
+# list bersifat mutable, artinya isinya bisa kita ubah
 
 # contoh 1
 # --------
@@ -86,7 +86,7 @@ print(angka) # 3 4 10 6
 
 # contoh
 # ------
-my_list = ['a','p','e','l']
+my_list = ['a', 'p', 'e', 'l']
 
 print(my_list[-1]) # l
 print(my_list[-2]) # e
@@ -121,7 +121,7 @@ print(list(buah)) # hasil : [jeruk, apel, mangga, durian, manggis]
 buah = ["jeruk", "apel", "mangga", "durian"]
 # tambah data manggis
 buah.insert(2, "manggis") # menambahkan item manggis pada indeks ke-2
-print(list(buah)) # [jeruk, apel manggis mangga durian]
+print(list(buah)) # [jeruk, apel, manggis, mangga, durian]
 
 # menghapus item di list
 # ----------------------
@@ -158,8 +158,7 @@ for isi in todo_list :
   
 # metode remove()
 # ---------------
-# metode remove() digunakan untuk menghapus item dengan parameter dari,
-# list tersebut
+# metode remove() digunakan untuk menghapus item dengan parameter dari list tersebut
 
 # contoh
 # ------
@@ -182,15 +181,15 @@ print(list(a))
 huruf = ["A", "B", "C", "D", "E", "F", "G", "H"]
 
 # kita potong dari index ke-1 sampai dengan ke-5
-print(huruf[1:5]) # hasil: B C D E
+print(huruf[1:5]) # hasil : B C D E
 # kita potong dari index negatif ke-1 sampai akhir
-print(huruf[:-5]) # hasil: A B C
+print(huruf[:-5]) # hasil : A B C
 # kita potong dari index ke-5 sampai akhir
-print(huruf[5:]) # hasil: A B C
+print(huruf[5:]) # hasil : A B C
 # kita potong dari awal sampai akhir
-print(huruf[:]) # hasil: A B C D E F G H
+print(huruf[:]) # hasil : A B C D E F G H
 # kita potong dari index negatif ke-1 sampai index negatif ke-3
-print(huruf[-3:-1]) # hasil: F G
+print(huruf[-3:-1]) # hasil : F G
 
 # fungsi built-in pada list python
 # --------------------------------
