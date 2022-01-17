@@ -4,7 +4,7 @@ tmp = 0
 
 # input bilangan
 for i in range (10) :
-  bil = int(input("masukkan bilangan: "))
+  bil = int(input("masukkan bilangan : "))
   tmp = tmp + bil # nilai yang sudah disimpan ke tmp akan dijumlahkan
   # dengan tmp yang baru
 print("------------------------")
