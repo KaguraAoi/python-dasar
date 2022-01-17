@@ -27,16 +27,16 @@ def daftarmenu() :
 # -----
 # UTAMA
 # -----
-cekusername = input("masukkan username: ")
-cekpassword = input("masukkan password: ")
+cekusername = input("masukkan username : ")
+cekpassword = input("masukkan password : ")
 print("---------------------------------")
 
 if cekusername == 'AdityaAtha' and cekpassword == "12345" :
     daftarmenu()
     while(True) :
-        pilih = int(input("masukkan pilihan: "))
+        pilih = int(input("masukkan pilihan : "))
         if pilih == 1 :
-            namamhs = input("masukkan nama mahasiswa: ")
+            namamhs = input("masukkan nama mahasiswa : ")
             mhs.append(namamhs)
         elif pilih == 2 :
             print(mhs)
