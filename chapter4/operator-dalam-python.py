@@ -56,6 +56,7 @@ umur = 18 # variabel umur telah kita berikan tugas untuk menyimpan angka 18
 # contoh
 # ------
 a = 10
+
 print("nilai a adalah ", a) # 10
 # tambahkan dengan 2
 a += 2 # a = 10 + 2
@@ -73,6 +74,7 @@ print("nilai a adalah ", a) # 9
 # ------
 a = 9
 b = 5
+
 c = a == b # c = 9 == 5 ?
 print ("apakah {} == {} : {}".format(a,b,c)) # False
 c = a < b # c = 9 < 5 ?
@@ -86,16 +88,17 @@ print ("apakah {} == {} : {}".format(a,b,c)) # True
 # ---------------
 # operator logika digunakan untuk membuat operasi logika
 # and, or, not
-# cara hafal :
-# and : dua dua harus True, selain itu False
-# or : dua dua salah maka False, salah satu benar tetap True
-# not : kebalikannya. misal not False maka True atau not True maka False 
+# cara hafal:
+# and: dua dua harus True, selain itu False
+# or: dua dua salah maka False, salah satu benar tetap True
+# not: kebalikannya. misal not False maka True atau not True maka False 
 
 # contoh
 # ------
 a = True
 b = True
 d = False
+
 # logika AND
 c = a and b
 print("{} and {} = {}".format(a, b, c)) # True
