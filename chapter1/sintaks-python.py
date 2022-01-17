@@ -1,7 +1,7 @@
 # penulisan statement python
 # --------------------------
 # statement adalah sebuah intruksi atau kalimat perintah yang akan dieksekusi oleh komputer
-# penulisan satu statement tidak diakhiri dengan tanda titik-koma
+# penulisan satu statement tidak diakhiri dengan tanda titik koma
 
 # contoh
 # ------
@@ -14,15 +14,15 @@ print("hello world")
 
 # contoh
 # ------
-namaMahasiswa = "Sony"
-mataKuliah = "Pemrograman Berbasis Open Source"
+namaMahasiswa = "sony"
+mataKuliah = "pemrograman berbasis open source"
 print(namaMahasiswa)
 print(mataKuliah)
 
 # penulisan case style pada python
 # --------------------------------
-# 1. gaya snake case: cirinya menggunakan garis bawah (_) untuk memisahkan suku kata
-# 2. gaya camel case: cirinya semua suku kata menyatu dan terdapat huruf kapital untuk memisahnya
+# 1. gaya snake case : cirinya menggunakan garis bawah (_) untuk memisahkan suku kata
+# 2. gaya camel case : cirinya semua suku kata menyatu dan terdapat huruf kapital untuk memisahnya
 
 # contoh
 # ------
