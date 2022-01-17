@@ -1,7 +1,7 @@
 # karakter escape python
 # ----------------------
 # \a : bell atau alert
-# \b : backspace / delete 1 karakter ke belakang
+# \b : backspace/delete 1 karakter ke belakang
 # \n : baris baru
 # \t : spasi 4x
 
