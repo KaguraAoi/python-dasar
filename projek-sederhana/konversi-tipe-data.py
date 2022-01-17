@@ -26,10 +26,10 @@ def garis() :
 menuu()
 
 # user input angka yang ingin dikonversi
-angka = input("masukkan angka: ")
+angka = input("masukkan angka : ")
 
 # user input pilihan
-pilih = int(input("masukan pilihan(1/2/3/4/5): "))
+pilih = int(input("masukan pilihan (1/2/3/4/5) : "))
 
 garis()
 
