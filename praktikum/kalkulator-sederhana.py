@@ -25,17 +25,17 @@ def pembagian(x, y) :
 # -------------
 
 # input user angka
-bil1 = float(input("masukkan angka pertama: "))
-bil2 = float(input("masukkan angka kedua  : "))
+bil1 = float(input("masukkan angka pertama : "))
+bil2 = float(input("masukkan angka kedua : "))
 
 # menu operator
-print("1.penjumlahan(+)")
-print("2.pengurangan(-)")
-print("3.perkalian(x)")
-print("4.pembagian(:)")
+print("1. penjumlahan (+)")
+print("2. pengurangan (-)")
+print("3. perkalian (x)")
+print("4. pembagian (:)")
 
 # pemilihan operator
-pilih_operator = int(input("pilih operator dengan menginput angka(1/2/3/4): "))
+pilih_operator = int(input("pilih operator dengan menginput angka (1/2/3/4) : "))
 
 # proses
 if pilih_operator == 1 :
