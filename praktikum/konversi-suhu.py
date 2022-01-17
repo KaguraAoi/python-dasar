@@ -1,7 +1,7 @@
 # contoh program konversi suhu
 
 # input suhu celcius
-celcius = float(input("masukkan suhu: "))
+celcius = float(input("masukkan suhu : "))
 
 # konversi
 reamur = (4 * celcius) / 5
