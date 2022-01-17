@@ -60,7 +60,7 @@ berat = 23.12
 # tipe data teks dibagi menjadi dua jenis lagi:
 # char, contoh 'R'
 # string, contoh "aku lagi makan"
-# penulisan tipe data teks harus diapit dengan tanda petik. bisa menggunakan petik tunggal(' ') atau ganda(" ")
+# penulisan tipe data teks harus diapit dengan tanda petik. bisa menggunakan petik tunggal (' ') atau ganda (" ")
 
 # contoh
 # ------
