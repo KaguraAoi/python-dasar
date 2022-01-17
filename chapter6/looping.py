@@ -1,5 +1,5 @@
-# perulangan / looping
-# --------------------
+# perulangan/looping
+# ------------------
 # looping adalah instruksi kode program yang bertujuan untuk mengulang beberapa baris perintah
 # dalam bahasa python, terdapat dua jenis looping yaitu for dan while
 
