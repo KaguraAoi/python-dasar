@@ -1,7 +1,7 @@
 # contoh program menentukan jenis zat
 
 # input suhu
-suhu = int(input("masukkan suhu dalam celcius: "))
+suhu = int(input("masukkan suhu dalam celcius : "))
 
 # cek kondisi
 if suhu < 0 :
