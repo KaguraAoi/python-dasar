@@ -49,7 +49,7 @@ umur = 18 # variabel umur telah kita berikan tugas untuk menyimpan angka 18
 
 # operator assignment gabungan
 # ----------------------------
-# operator assignment gabungan adalah penulisan singkat operator assignment yang digabung dengan dengan operator lain
+# operator assignment gabungan adalah penulisan singkat operator assignment yang digabung dengan operator lain
 # +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
 # misalnya a = a + 1 atau a += 1 (sama)
 
