@@ -12,10 +12,8 @@
 # operator aritmatika
 # operator perbandingan
 # operator logika
-# operator bitwise
 # operator assignment
 # operator identitas
-# operator keanggotaan
 # operator ternary
 
 # operator aritmatika
@@ -78,11 +76,11 @@ b = 5
 c = a == b # c = 9 == 5 ?
 print ("apakah {} == {} : {}".format(a,b,c)) # False
 c = a < b # c = 9 < 5 ?
-print ("apakah {} == {} : {}".format(a,b,c)) # False
+print ("apakah {} < {} : {}".format(a,b,c)) # False
 c = a > b # c = 9 > 5 ?
-print ("apakah {} == {} : {}".format(a,b,c)) # True
+print ("apakah {} > {} : {}".format(a,b,c)) # True
 c = a != b # c = 9 != 5 ?
-print ("apakah {} == {} : {}".format(a,b,c)) # True
+print ("apakah {} != {} : {}".format(a,b,c)) # True
 
 # operator logika
 # ---------------
@@ -104,18 +102,10 @@ c = a and b
 print("{} and {} = {}".format(a, b, c)) # True
 # logika OR
 c = a or d
-print("{} and {} = {}".format(a, b, d)) # True
+print("{} or {} = {}".format(a, d, c)) # True
 # logika NOT
 c = not a
-print("{} and {} = {}".format(a, b, c)) # False
-
-# operator bitwise
-# ----------------
-# bitwise adalah operator khusus untuk menangani operasi logika bilangan biner dalam bentuk bit
-# bilangan biner merupakan jenis bilangan yang hanya terdiri dari 2 jenis angka, yakni 0 dan 1
-# jika nilai asal yang dipakai bukan bilangan biner, akan dikonversi menjadi bilangan biner
-# misalnya 7 desimal == 0111 dalam bilangan biner
-# &, |, ^, ~, <<, >>
+print("{} not a {} = {}".format(a, c)) # False
 
 # operator ternary
 # ----------------
@@ -132,7 +122,7 @@ print(aku)
 # urutan evaluasi
 # ---------------
 # urutan evaluasi merupakan urutan operator yang dikerjakan terlebih dahulu
-# untuk urutan aritmatikanya yaitu KUKABATAKU (kurung, kali, bagi, tambah, kurang)
+# untuk urutan aritmatika-nya yaitu KUKABATAKU (kurung, kali, bagi, tambah, kurang)
 
 # mengubah urutan evaluasi
 # ------------------------
@@ -158,18 +148,13 @@ print ("2.0 / 3 * 4 = {}".format(hasil)) # 2,666...
 # beberapa operator seperti assignment mempunyai sifat asosiatif dari kanan ke kiri
 # contoh : a = b = c akan dievaluasi a = (b = c)
 
-# operator identitas dan keanggotaan
-# ----------------------------------
-# kedua operator ini kadang disebut juga sebagai operator khusus (special operator)
-# operator ini tidak selalu tersedia di bahasa pemrograman lain
-
 # operator identitas
 # ------------------
 # operator identitas adalah operator yang digunakan untuk memeriksa sebuah nilai,
 # apakah nilai sebuah variabel ada di tempat yang sama (di memory) atau tidak
 # operator ini terdiri dari 2 jenis : yaitu is dan is not
 # is : bernilai True jika kedua operand merujuk ke object yang sama dan berisi nilai yang sama
-# is not : bernilai True jika kedua operan merujuk ke objek yang tidak sama
+# is not : bernilai True jika kedua operand merujuk ke objek yang tidak sama
 
 # contoh
 # ------
